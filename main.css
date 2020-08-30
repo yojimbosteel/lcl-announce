@@ -1,0 +1,23 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+
+.flex-container > article {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    flex: 70%;
+}
